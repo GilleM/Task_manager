@@ -4,7 +4,7 @@ $(document).ready(function() {
     });
     $(".collapsible").collapsible();
     $(".tooltipped").tooltip();
-    $('select').formSelect();
+    $("select").formSelect();
     $(".datepicker").datepicker({
         format: "dd mmmm, yyyy",
         yearRange: 3,
@@ -13,6 +13,4 @@ $(document).ready(function() {
             done: "Select"
         }
     });
-
-
 });
